@@ -2,7 +2,7 @@ def line(array)
   if array.empty?
     puts "The line is currently empty."
   else
-    puts "The line is currently: " + array.map{|i| "#{array.index(i)+1}. #{i}"}.join(" ")
+    puts "The line is currently: " + array.map{|i, j| "#{j+1}. #{i}"}.join(" ")
   end
 end
 
