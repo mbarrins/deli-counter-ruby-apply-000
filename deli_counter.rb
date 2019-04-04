@@ -22,6 +22,6 @@ end
 num = 1
 def take_a_number2(array)
   array << num
-  num += 1
   puts "Welcome, you are number #{num} in line."
+  num += 1
 end
